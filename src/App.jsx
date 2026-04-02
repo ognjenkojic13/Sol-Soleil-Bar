@@ -467,7 +467,7 @@ function Footer() {
         </a>
       </div>
       <div className="footer-bottom">
-        <div className="footer-logo">SEL & SOLEIL</div>
+        <div className="footer-logo">{splitChars('SEL & SOLEIL')}</div>
         <div className="footer-legal">
           <div className="footer-legal-left">
             <a href="#">Cookie preferences</a>

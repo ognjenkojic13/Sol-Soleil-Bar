@@ -149,6 +149,34 @@ a { text-decoration: none; }
   color: var(--white);
 }
 
+.hero-logo-text .char,
+.footer-logo .char { transition: color 0.4s ease; }
+
+.hero-logo-text:hover .char-wrap:nth-child(1)  .char,
+.footer-logo:hover .char-wrap:nth-child(1)  .char { color: #002395; transition-delay: 0.00s; }
+.hero-logo-text:hover .char-wrap:nth-child(2)  .char,
+.footer-logo:hover .char-wrap:nth-child(2)  .char { color: #ffffff;  transition-delay: 0.08s; }
+.hero-logo-text:hover .char-wrap:nth-child(3)  .char,
+.footer-logo:hover .char-wrap:nth-child(3)  .char { color: #EF4135; transition-delay: 0.16s; }
+.hero-logo-text:hover .char-wrap:nth-child(4)  .char,
+.footer-logo:hover .char-wrap:nth-child(4)  .char { color: #002395; transition-delay: 0.24s; }
+.hero-logo-text:hover .char-wrap:nth-child(5)  .char,
+.footer-logo:hover .char-wrap:nth-child(5)  .char { color: #ffffff;  transition-delay: 0.32s; }
+.hero-logo-text:hover .char-wrap:nth-child(6)  .char,
+.footer-logo:hover .char-wrap:nth-child(6)  .char { color: #EF4135; transition-delay: 0.40s; }
+.hero-logo-text:hover .char-wrap:nth-child(7)  .char,
+.footer-logo:hover .char-wrap:nth-child(7)  .char { color: #002395; transition-delay: 0.48s; }
+.hero-logo-text:hover .char-wrap:nth-child(8)  .char,
+.footer-logo:hover .char-wrap:nth-child(8)  .char { color: #ffffff;  transition-delay: 0.56s; }
+.hero-logo-text:hover .char-wrap:nth-child(9)  .char,
+.footer-logo:hover .char-wrap:nth-child(9)  .char { color: #EF4135; transition-delay: 0.64s; }
+.hero-logo-text:hover .char-wrap:nth-child(10) .char,
+.footer-logo:hover .char-wrap:nth-child(10) .char { color: #002395; transition-delay: 0.72s; }
+.hero-logo-text:hover .char-wrap:nth-child(11) .char,
+.footer-logo:hover .char-wrap:nth-child(11) .char { color: #ffffff;  transition-delay: 0.80s; }
+.hero-logo-text:hover .char-wrap:nth-child(12) .char,
+.footer-logo:hover .char-wrap:nth-child(12) .char { color: #EF4135; transition-delay: 0.88s; }
+
 .hero-stamp {
   position: absolute;
   bottom: 2.5rem;
@@ -157,7 +185,7 @@ a { text-decoration: none; }
   border-radius: 108px;
   padding: 3.125rem 4rem;
   font-family: var(--font-disp);
-  font-size: clamp(3.5rem, 5.5vw, 8rem);
+  font-size: clamp(2rem, 3.5vw, 5rem);
   letter-spacing: -0.03em;
   text-transform: uppercase;
   color: var(--white);
@@ -366,7 +394,7 @@ a { text-decoration: none; }
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: lowercase;
-  color: var(--muted);
+  color: #EF4135;
 }
 
 .menu-item-price {
