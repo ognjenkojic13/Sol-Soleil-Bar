@@ -179,10 +179,10 @@ const menuData = {
 };
 
 const galleryImages = [
-  '/footer.png',
-  '/gallery2.png',
-  '/gallery3.png',
-  '/gallery4.png',
+  `${base}footer.png`,
+  `${base}gallery2.png`,
+  `${base}gallery3.png`,
+  `${base}gallery4.png`,
 ];
 
 function splitChars(text) {
@@ -369,11 +369,12 @@ function GallerySection() {
   );
 }
 
+const base = import.meta.env.BASE_URL;
 const slideshowImages = [
-  '/menu/Gemini_Generated_Image_8ne85k8ne85k8ne8.png',
-  '/menu/Gemini_Generated_Image_fb8nv8fb8nv8fb8n.png',
-  '/menu/Gemini_Generated_Image_mq1lakmq1lakmq1l.png',
-  '/menu/Gemini_Generated_Image_oipoi8oipoi8oipo.png',
+  `${base}menu/Gemini_Generated_Image_8ne85k8ne85k8ne8.png`,
+  `${base}menu/Gemini_Generated_Image_fb8nv8fb8nv8fb8n.png`,
+  `${base}menu/Gemini_Generated_Image_mq1lakmq1lakmq1l.png`,
+  `${base}menu/Gemini_Generated_Image_oipoi8oipoi8oipo.png`,
 ];
 
 function MapSection() {
