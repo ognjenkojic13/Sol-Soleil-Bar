@@ -1,3 +1,5 @@
+<img width="1677" height="947" alt="Screenshot 2026-04-02 at 19 11 00" src="https://github.com/user-attachments/assets/38786b3c-c858-4952-beb9-36dc22f035d4" />
+
 # Sel & Soleil — Beach Bar Landing Page
 
 A fully custom-designed, animated landing page for **Sel & Soleil**, a fictional luxury beach bar located in Antibes, France. Built from scratch with a strong focus on visual identity, motion design, and polished UX — no templates, no UI kits.
@@ -99,5 +101,3 @@ git push origin main
 Designed and developed by **Ognjen Kojic**
 
 ---
-<img width="1677" height="947" alt="Screenshot 2026-04-02 at 19 11 00" src="https://github.com/user-attachments/assets/38786b3c-c858-4952-beb9-36dc22f035d4" />
-
