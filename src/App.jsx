@@ -179,10 +179,10 @@ const menuData = {
 };
 
 const galleryImages = [
-  `${base}footer.png`,
-  `${base}gallery2.png`,
-  `${base}gallery3.png`,
-  `${base}gallery4.png`,
+  '/Sol-Soleil-Bar/footer.png',
+  '/Sol-Soleil-Bar/gallery2.png',
+  '/Sol-Soleil-Bar/gallery3.png',
+  '/Sol-Soleil-Bar/gallery4.png',
 ];
 
 function splitChars(text) {
@@ -369,12 +369,11 @@ function GallerySection() {
   );
 }
 
-const base = import.meta.env.BASE_URL;
 const slideshowImages = [
-  `${base}menu/Gemini_Generated_Image_8ne85k8ne85k8ne8.png`,
-  `${base}menu/Gemini_Generated_Image_fb8nv8fb8nv8fb8n.png`,
-  `${base}menu/Gemini_Generated_Image_mq1lakmq1lakmq1l.png`,
-  `${base}menu/Gemini_Generated_Image_oipoi8oipoi8oipo.png`,
+  '/Sol-Soleil-Bar/menu1.png',
+  '/Sol-Soleil-Bar/menu2.png',
+  '/Sol-Soleil-Bar/menu3.png',
+  '/Sol-Soleil-Bar/menu4.png',
 ];
 
 function MapSection() {
