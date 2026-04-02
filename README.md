@@ -99,5 +99,5 @@ git push origin main
 Designed and developed by **Ognjen Kojic**
 
 ---
+<img width="1677" height="947" alt="Screenshot 2026-04-02 at 19 11 00" src="https://github.com/user-attachments/assets/38786b3c-c858-4952-beb9-36dc22f035d4" />
 
-> "Sun, salt & good wine."
