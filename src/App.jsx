@@ -389,8 +389,9 @@ function MapSection() {
   return (
     <section className="section-map">
       <div className="map-label">
-        <p className="map-location">Bd du Littoral,</p>
-        <p className="map-location">06160 Antibes</p>
+        <p className="map-location">fresh from the sea.</p>
+        <p className="map-location">local & domestic.</p>
+        <p className="map-location">sun-kissed bites.</p>
       </div>
       <div className="slideshow-wrap">
         {slideshowImages.map((src, i) => (
