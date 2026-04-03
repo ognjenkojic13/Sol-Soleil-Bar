@@ -2,7 +2,7 @@
 
 # Sel & Soleil — Beach Bar Landing Page
 
-A fully custom-designed, animated landing page for **Sel & Soleil**, a fictional luxury beach bar located in Antibes, France. Built from scratch with a strong focus on visual identity, motion design, and polished UX — no templates, no UI kits.
+A fully custom-designed, animated landing page for **Sel & Soleil**, a luxury beach bar located in Antibes, France. Built from scratch with a strong focus on visual identity, motion design, and polished UX — no templates, no UI kits.
 
 **Live demo:** [ognjenkojic13.github.io/Sol-Soleil-Bar](https://ognjenkojic13.github.io/Sol-Soleil-Bar/)
 
@@ -17,15 +17,16 @@ This project was designed and built entirely by hand — from layout and typogra
 ## Features
 
 - **Full-screen hero** with wave-in character animation on page load
-- **Animated stamp** with continuous rotation loop (GSAP)
+- **Animated stamp** ("open every day") styled in French flag colors with continuous GSAP rotation loop
 - **Scroll-triggered text animations** on all section headings
-- **Interactive menu** with 8 categories and animated tab switching
+- **Interactive menu** with 7 categories and animated tab switching — horizontal scroll on mobile
 - **Image slideshow** with auto-play and manual dot navigation
-- **"Book a table" section** with full-bleed background image
-- **"Open mostly" section** with atmospheric background
-- **Custom French flag color animation** on hover — letters reveal left to right with staggered delay
-- **Footer** with character-split logo and matching hover animation
-- **Responsive layout** across desktop and mobile
+- **French flag hover animation** — letters on the logo reveal in blue, white, and red from left to right with staggered CSS transitions
+- **"Book a table" section** with contact details and full-bleed background
+- **"Open mostly" section** with atmospheric background image
+- **Footer** with character-split logo and matching French flag hover animation
+- **Fully responsive layout** — adapted for desktop and mobile with custom breakpoints
+- **Google Analytics** integration for visitor tracking
 - **GSAP ScrollTrigger** for all scroll-based reveals
 - **Deployed via GitHub Pages** with Vite production build
 
@@ -33,9 +34,9 @@ This project was designed and built entirely by hand — from layout and typogra
 
 ## Design Decisions
 
-- **Color palette** — Deep navy `#111184`, electric blue `#3d7bf6`, warm grey `#e4e4e4`, and golden hover `#F5C430`
+- **Color palette** — Deep navy `#111184`, electric blue `#3d7bf6`, warm grey `#e4e4e4`, golden hover `#F5C430`, French flag red `#EF4135` and blue `#002395`
 - **Typography** — Bebas Neue for display headings, Barlow Condensed for body and menu — both sourced from Google Fonts
-- **French identity** — The bar's name, address (Antibes), Instagram handle, and the tricolore hover animation all reinforce the French Riviera concept
+- **French identity** — The bar's name, address (Antibes), Instagram handle, tricolore stamp, and hover animations all reinforce the French Riviera concept
 - **No UI framework** — Every component, layout, and animation was written from scratch
 
 ---
@@ -49,6 +50,7 @@ This project was designed and built entirely by hand — from layout and typogra
 | Animation | GSAP + ScrollTrigger |
 | Styling | Custom CSS (no Tailwind, no CSS framework) |
 | Fonts | Google Fonts (Bebas Neue, Barlow Condensed) |
+| Analytics | Google Analytics (GA4) |
 | Deployment | GitHub Pages |
 | Images | AI-generated (Google Gemini) |
 
@@ -58,16 +60,18 @@ This project was designed and built entirely by hand — from layout and typogra
 
 ```
 src/
-  App.jsx        — all components and data
-  styles.css     — all custom styles and animations
-  main.jsx       — React entry point
+  App.jsx          — all components and data
+  styles.css       — all custom styles and animations
+  main.jsx         — React entry point
 public/
-  hero.png       — hero section background
-  footer.png     — footer background
-  jobs.png       — book a table section background
-  hours.png      — open mostly section background
-  gallery*.png   — gallery images
-  menu/          — slideshow images
+  images/
+    hero.png       — hero section background
+    footer.png     — footer background
+    jobs.png       — book a table section background
+    hours.png      — open mostly section background
+    gallery/       — gallery section images
+    slideshow/     — slideshow images
+    snacks/        — snacks menu image
 ```
 
 ---
