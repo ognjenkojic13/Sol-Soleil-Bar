@@ -86,20 +86,6 @@ npm run dev
 ```
 
 ---
-
-## Deployment
-
-Built with Vite and deployed to GitHub Pages from the `/docs` folder on the `main` branch.
-
-```bash
-npm run build
-git add .
-git commit -m "deploy"
-git push origin main
-```
-
----
-
 ## Author
 
 Designed and developed by **Ognjen Kojic**
