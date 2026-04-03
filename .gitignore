@@ -1,1 +1,8 @@
 node_modules/
+dist/
+.vite/
+.DS_Store
+sync-and-build.sh
+*.png
+!docs/**/*.png
+!public/**/*.png
