@@ -4,7 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const menuTabs = ['Beer', 'Wine & Bubbles', 'Aperitif & Digestif', 'Spirits', 'Cocktails', 'Soft & Organic', 'Hot Drinks', 'Snacks'];
+const menuTabs = ['Beer', 'Wine & Bubbles', 'Spirits', 'Cocktails', 'Soft & Organic', 'Hot Drinks', 'Snacks'];
 
 const menuData = {
   'Beer': {
@@ -46,31 +46,6 @@ const menuData = {
         { name: 'Cava', price: '7,50' },
         { name: "Crémant d'Alsace", price: '7,50' },
         { name: 'Champagne', note: 'bottle', price: 'from 55,00' },
-      ],
-    },
-  },
-  'Aperitif & Digestif': {
-    left: {
-      title: 'APERITIF',
-      items: [
-        { name: 'Aperol Spritz', price: '9,00' },
-        { name: 'Hugo', price: '9,00' },
-        { name: 'Campari Soda', price: '8,50' },
-        { name: 'Pastis', price: '6,50' },
-        { name: 'Port', price: '6,00' },
-        { name: 'Martini Bianco', note: 'with tonic', price: '8,00' },
-      ],
-    },
-    right: {
-      title: 'DIGESTIF',
-      priceHeaders: ['SHOT', '5CL'],
-      items: [
-        { name: 'Jenever', prices: ['4', '—'] },
-        { name: 'Limoncello', prices: ['5', '6,50'] },
-        { name: 'Amaretto', prices: ['5', '6,50'] },
-        { name: 'Grappa', prices: ['5,50', '7'] },
-        { name: 'Calvados', prices: ['6', '7,50'] },
-        { name: 'Cognac', note: 'Hennessy VSOP', prices: ['7', '10'] },
       ],
     },
   },
@@ -226,6 +201,7 @@ function HeroSection() {
 
   useEffect(() => {
     const chars = titleRef.current.querySelectorAll('.char');
+
     gsap.fromTo(chars,
       { yPercent: 120 },
       { yPercent: 0, stagger: 0.04, duration: 1.3, ease: 'power4.out', delay: 0.15 }
@@ -250,11 +226,14 @@ function HeroSection() {
       <div className="hero-flex">
         <div className="hero-logo-wrap">
           <div ref={titleRef} className="hero-logo-text">
-            {splitChars('SEL & SOLEIL')}
+            <div className="hero-logo-line">{splitChars('SEL &')}</div>
+            <div className="hero-logo-line">{splitChars('SOLEIL')}</div>
           </div>
         </div>
         <div ref={stampRef} className="hero-stamp">
-          open every day
+          <span style={{color:'#002395'}}>open</span>{' '}
+          <span style={{color:'#ffffff'}}>every</span>{' '}
+          <span style={{color:'#EF4135'}}>day</span>
         </div>
         <div className="hero-panels">
           <div className="hero-panel">
@@ -390,7 +369,7 @@ function MapSection() {
     <section className="section-map">
       <div className="map-label">
         <p className="map-location">fresh from the sea.</p>
-        <p className="map-location">local & domestic.</p>
+        <p className="map-location"><span style={{color:'#4B7BFF'}}>local</span> <span style={{color:'#ffffff'}}>&</span> <span style={{color:'#EF4135'}}>domestic.</span></p>
         <p className="map-location">sun-kissed bites.</p>
       </div>
       <div className="slideshow-wrap">
