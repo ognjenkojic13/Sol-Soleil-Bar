@@ -110,7 +110,7 @@ a { text-decoration: none; }
   content: '';
   position: absolute;
   inset: 0;
-  background: url('/footer.png') center center / cover no-repeat;
+  background: url('/images/hero.png') center center / cover no-repeat;
   opacity: 0.85;
   z-index: 0;
 }
@@ -580,7 +580,7 @@ a { text-decoration: none; }
 }
 
 .section-cta--jobs {
-  background-image: url('/jobs.png');
+  background-image: url('/images/jobs.png');
   background-size: cover;
   background-position: center;
   color: var(--white);
@@ -598,7 +598,7 @@ a { text-decoration: none; }
 }
 
 .section-cta--grey {
-  background-image: url('/gallery2.png');
+  background-image: url('/images/gallery/gallery2.png');
   background-size: cover;
   background-position: center;
   color: var(--white);
@@ -698,7 +698,7 @@ a { text-decoration: none; }
   content: '';
   position: absolute;
   inset: 0;
-  background: url('/hero.png') center center / cover no-repeat;
+  background: url('/images/footer.png') center center / cover no-repeat;
   opacity: 0.85;
   z-index: 0;
 }

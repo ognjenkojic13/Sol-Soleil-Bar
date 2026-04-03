@@ -132,7 +132,7 @@ const menuData = {
     },
   },
   'Snacks': {
-    image: '/menu/Gemini_Generated_Image_8ne85k8ne85k8ne8.png',
+    image: '/Sol-Soleil-Bar/images/snacks/snacks.png',
     left: {
       title: 'BITES',
       items: [
@@ -154,10 +154,10 @@ const menuData = {
 };
 
 const galleryImages = [
-  '/Sol-Soleil-Bar/footer.png',
-  '/Sol-Soleil-Bar/gallery2.png',
-  '/Sol-Soleil-Bar/gallery3.png',
-  '/Sol-Soleil-Bar/gallery4.png',
+  '/Sol-Soleil-Bar/images/gallery/gallery1.png',
+  '/Sol-Soleil-Bar/images/gallery/gallery2.png',
+  '/Sol-Soleil-Bar/images/gallery/gallery3.png',
+  '/Sol-Soleil-Bar/images/gallery/gallery4.png',
 ];
 
 function splitChars(text) {
@@ -349,10 +349,10 @@ function GallerySection() {
 }
 
 const slideshowImages = [
-  '/Sol-Soleil-Bar/menu1.png',
-  '/Sol-Soleil-Bar/menu2.png',
-  '/Sol-Soleil-Bar/menu3.png',
-  '/Sol-Soleil-Bar/menu4.png',
+  '/Sol-Soleil-Bar/images/slideshow/slide1.png',
+  '/Sol-Soleil-Bar/images/slideshow/slide2.png',
+  '/Sol-Soleil-Bar/images/slideshow/slide3.png',
+  '/Sol-Soleil-Bar/images/slideshow/slide4.png',
 ];
 
 function MapSection() {
